@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name" translatable="false">Epheal</string>
+
+    <string name="namehint">Name</string>
+    <string name="search_patient">Hasta Ara</string>
+    <string name="add_new_examination">Yeni Muayene Oluştur</string>
+    <string name="reports">Raporlar</string>
+    <string name="vaksan_control">Aşı Kontrolü</string>
+    <string name="KDS_System">Karar Destek Sistemi</string>
+    <string name="Notifications">Bildirimler ve İzlemler</string>
+    <string name="Forms">Formlar</string>
+    <string name="Calender">Takvim</string>
+    <string name="Following_system">Takip Ekranı</string>
+    <string name="ID_Number">T.C Kimlik No</string>
+    <string name="Hint_family">Soyadı</string>
+    <string name="FatherName">Baba Adı</string>
+    <string name="DateOfBırth">Doğ Tar.</string>
+    <string name="BirthYear">Yaşı</string>
+    <string name="MoreInformation">Daha Fazla</string>
+    <string name="BtnOk">Tamam</string>
+    <string name="Error">hata</string>
+    <string name="VitalSigns">Vital Bulgular</string>
+    <string name="Fever">Ateş</string>
+    <string name="HeartRate">Nabız</string>
+    <string name="BloodPressure">Tansiyon</string>
+    <string name="Respirator">Solunum</string>
+    <string name="BloodSuger">AKŞ</string>
+    <string name="PainLevel">Ağrı Seviyesi</string>
+    <string name="Complaint">Şikayeti</string>
+    <string name="Story">Hikayesi</string>
+    <string name="Finding">Bulgu</string>
+    <string name="Result">Sonuç</string>
+    <string name="WantNewControlDate">Yeni Kontrol için gelecek</string>
+    <string name="Save">Kaydet</string>
+    <string name="NewControlDate">Yeni Kontrol Tarihi</string>
+    <string name="MedicineName">İlaç Adı</string>
+    <string name="HowToUse">Kul Şekl</string>
+    <string name="Periyod">Periyod</string>
+    <string name="example">example</string>
+    <string name="PerBar">Per Bar</string>
+    <string name="Add">Artır</string>
+    <string name="Value">Miktar</string>
+    <string name="Man">Erkek</string>
+    <string name="Woman">Kadın</string>
+    <string name="BloodGroup">Kan Grubu</string>
+</resources>

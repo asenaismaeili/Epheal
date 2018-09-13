@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="100"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="50">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="48"
+            android:orientation="vertical"
+            android:weightSum="95">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+              ></LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"></LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                ></LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:weightSum="6"
+                android:layout_weight="30">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="monospace"
+                            android:textColor="@color/textcolor"
+                            android:text="T.C Kimlik No"
+                            android:paddingRight="20dp"
+                            android:gravity="center"
+                            android:textSize="25sp"></TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:typeface="serif"
+                            android:textColor="@color/red"
+                            android:text="11223344556"
+                            android:gravity="center"
+                            android:textSize="30sp"></TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="monospace"
+                            android:textColor="@color/textcolor"
+                            android:text="Adı"
+                            android:paddingRight="20dp"
+                            android:gravity="center"
+                            android:textSize="25sp"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="serif"
+                            android:textColor="@color/textcolor"
+                            android:text="Adı"
+                            android:gravity="center"
+                            android:textSize="30sp"></TextView>
+                    </LinearLayout>
+
+                  </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="monospace"
+                            android:textColor="@color/textcolor"
+                            android:text="Soyadı"
+                            android:paddingRight="20dp"
+                            android:gravity="center"
+                            android:textSize="25sp"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="serif"
+                            android:textColor="@color/textcolor"
+                            android:text="Soyadı"
+                            android:gravity="center"
+                            android:textSize="30sp"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="monospace"
+                            android:textColor="@color/textcolor"
+                            android:text="Ana Adı"
+                            android:paddingRight="20dp"
+                            android:gravity="center"
+                            android:textSize="25sp"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="serif"
+                            android:textColor="@color/textcolor"
+                            android:text="Ana Adı"
+                            android:gravity="center"
+                            android:textSize="30sp"></TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="monospace"
+                            android:textColor="@color/textcolor"
+                            android:text="Baba Adı"
+                            android:paddingRight="20dp"
+                            android:gravity="center"
+                            android:textSize="25sp"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="serif"
+                            android:textColor="@color/textcolor"
+                            android:text="Baba Adı"
+                            android:gravity="center"
+                            android:textSize="30sp"></TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="3.5">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.3">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="monospace"
+                            android:textColor="@color/textcolor"
+                            android:text="Doğ Tar."
+                            android:paddingRight="20dp"
+                            android:gravity="center"
+                            android:textSize="25sp"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="serif"
+                            android:textColor="@color/textcolor"
+                            android:text="1989.01.01"
+                            android:gravity="center"
+                            android:textSize="30sp"></TextView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"></LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight=".5">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="monospace"
+                            android:textColor="@color/textcolor"
+                            android:text="Yaşı"
+                            android:paddingRight="20dp"
+                            android:gravity="center"
+                            android:textSize="25sp"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="serif"
+                            android:textColor="@color/textcolor"
+                            android:text="22"
+                            android:gravity="center"
+                            android:textSize="30sp"></TextView>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.1"></LinearLayout>
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="monospace"
+                            android:textColor="@color/textcolor"
+                            android:text="Cinsiyet"
+                            android:paddingRight="20dp"
+                            android:gravity="center"
+                            android:textSize="25sp"></TextView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:typeface="serif"
+                            android:textColor="@color/textcolor"
+                            android:text="kadın"
+                            android:gravity="center"
+                            android:textSize="30sp"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                ></LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="53.5"
+                android:layoutDirection="ltr"
+                android:background="@drawable/boarder_bg"
+                android:orientation="vertical"
+                android:weightSum="48.5">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="12.5"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="30">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="12.75"
+                            android:orientation="vertical"
+                            android:weightSum="5">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.5"></LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:weightSum="5">
+
+
+                                <RelativeLayout
+                                    android:layout_width="120dp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_height="120dp"
+                                    android:background="@drawable/circle"
+                                    android:id="@+id/imgpersonalinfo"
+                                    >
+
+                                    <ImageView
+                                        android:id="@+id/imgmybooking"
+                                        android:layout_width="match_parent"
+                                        android:layout_margin="25dp"
+                                        android:layout_height="match_parent"
+                                        android:background="@drawable/persenal"
+                                        android:scaleType="fitXY"></ImageView>
+                                </RelativeLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tvpersonalinfo"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="17.25"
+                            android:gravity="center_vertical"
+                            android:text="Kişisel Bilgiler"
+                            android:textColor="@color/main"
+                            android:textSize="34sp"
+                            android:typeface="serif"></TextView>
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="30">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="12.75"
+                            android:orientation="vertical"
+                            android:weightSum="5">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.5"></LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:weightSum="5">
+
+
+                                <RelativeLayout
+                                    android:layout_width="120dp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_height="120dp"
+                                    android:background="@drawable/circle"
+                                    android:id="@+id/img2"
+                                    >
+
+                                    <ImageView
+                                        android:id="@+id/imgusersetting"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="25dp"
+                                        android:background="@drawable/family"
+                                        android:scaleType="fitXY"></ImageView>
+                                </RelativeLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tvusersetting"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="17.25"
+                            android:gravity="center_vertical"
+                            android:text="Akraba Listesi"
+                            android:textColor="@color/main"
+                            android:textSize="34sp"
+                            android:typeface="serif"></TextView>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="12.5"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="30">
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="12.75"
+                            android:orientation="vertical"
+                            android:weightSum="5">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.5"></LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:weightSum="5">
+
+
+                                <RelativeLayout
+                                    android:layout_width="120dp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_height="120dp"
+                                    android:background="@drawable/circle"
+                                    android:id="@+id/img5"
+                                    >
+
+                                    <ImageView
+                                        android:id="@+id/imgfinancialreport"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="25dp"
+                                        android:background="@drawable/identification"
+                                        android:scaleType="fitXY"></ImageView>
+                                </RelativeLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/tvfinancialreport"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="17.25"
+                            android:gravity="center_vertical"
+                            android:text="Kimlik Bilgiler"
+                            android:textColor="@color/main"
+                            android:textSize="34sp"
+                            android:typeface="serif"></TextView>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="30">
+
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="12.75"
+                            android:orientation="vertical"
+                            android:weightSum="5">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.5"></LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:weightSum="5">
+
+
+                                <RelativeLayout
+                                    android:layout_width="120dp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_height="120dp"
+                                    android:background="@drawable/circle"
+                                    android:id="@+id/img6"
+                                    >
+
+                                    <ImageView
+                                        android:id="@+id/imgaccountinfo"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="25dp"
+                                        android:background="@drawable/groups"
+                                        android:scaleType="fitXY"></ImageView>
+                                </RelativeLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/tvaccountinfo"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="17.25"
+                            android:gravity="center_vertical"
+                            android:text="Hasta Grupları"
+                            android:textColor="@color/main"
+                            android:textSize="34sp"
+                            android:typeface="serif"></TextView>
+                    </LinearLayout>
+
+
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="12.5"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="30">
+
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="12.75"
+                            android:orientation="vertical"
+                            android:weightSum="5">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.5"></LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:weightSum="5">
+
+
+                                <RelativeLayout
+                                    android:layout_width="120dp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_height="120dp"
+                                    android:background="@drawable/circle"
+                                    android:id="@+id/img1"
+                                    >
+                                    <ImageView
+                                        android:id="@+id/imgexite"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="25dp"
+                                        android:background="@drawable/address"
+                                        android:scaleType="fitXY"></ImageView>
+
+                                </RelativeLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/tvexite"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="17.25"
+                            android:gravity="center_vertical"
+                            android:text="Adres Bilgiler"
+                            android:textColor="@color/main"
+                            android:textSize="34sp"
+                            android:typeface="serif"></TextView>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="horizontal"
+                        android:weightSum="30">
+
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="12.75"
+                            android:orientation="vertical"
+                            android:weightSum="5">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="0.5"></LinearLayout>
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal"
+                                android:weightSum="5">
+
+
+                                <RelativeLayout
+                                    android:layout_width="120dp"
+                                    android:layout_centerInParent="true"
+                                    android:layout_height="120dp"
+                                    android:background="@drawable/circle"
+                                    android:id="@+id/img4"
+                                    >
+
+                                    <ImageView
+                                        android:id="@+id/imgfav"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_margin="25dp"
+                                        android:background="@drawable/emergency"
+                                        android:scaleType="fitXY"></ImageView>
+                                </RelativeLayout>
+                            </RelativeLayout>
+                        </LinearLayout>
+                        <TextView
+                            android:id="@+id/tvfav"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="17.25"
+                            android:gravity="center_vertical"
+                            android:text="Acil Durum"
+                            android:textColor="@color/main"
+                            android:textSize="34sp"
+                            android:typeface="serif"></TextView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                ></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
+
